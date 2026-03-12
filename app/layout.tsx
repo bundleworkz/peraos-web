@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   title: "PeraOS — Insaat & Proje Yonetim Platformu",
   description:
     "Projelerinizi blok ve kat bazli takip edin, santiye sureclerini dijitallestirin, ekibinizle gercek zamanli koordinasyon saglayin.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
