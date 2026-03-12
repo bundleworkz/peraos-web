@@ -1,4 +1,7 @@
-:root{--bg:#F4F5F7;--bg-warm:#EDEEF2;--text:#1A1A2E;--text-muted:#5F6880;--accent:#5B5BD6;--accent-hover:#4C4CBF;--accent-light:#EDEDFC;--accent-green:#10B981;--accent-green-light:#ECFDF5;--border:#D8DAE5;--white:#FFFFFF;--dark:#12122A;--dark-mid:#1A1A36;--radius:16px;--font-display:var(--font-playfair),Georgia,serif;--font-body:var(--font-dm-sans),-apple-system,sans-serif}
+@font-face{font-family:'Clash Display';src:url('/fonts/ClashDisplay-Semibold.woff2') format('woff2');font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:'Clash Display';src:url('/fonts/ClashDisplay-Bold.woff2') format('woff2');font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:'Inter';src:url('/fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');font-weight:100 900;font-style:normal;font-display:swap}
+:root{--bg:#F4F5F7;--bg-warm:#EDEEF2;--text:#1A1A2E;--text-muted:#5F6880;--accent:#5B5BD6;--accent-hover:#4C4CBF;--accent-light:#EDEDFC;--accent-green:#10B981;--accent-green-light:#ECFDF5;--border:#D8DAE5;--white:#FFFFFF;--dark:#12122A;--dark-mid:#1A1A36;--radius:16px;--font-display:'Clash Display',sans-serif;--font-body:'Inter',sans-serif}
 *{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
 body{font-family:var(--font-body);color:var(--text);background:var(--bg);line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 .container{max-width:1200px;margin:0 auto;padding:0 24px}
