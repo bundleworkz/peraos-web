@@ -17,9 +17,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "PeraOS — Insaat & Proje Yonetim Platformu",
+  title: "PeraOS — İnşaat & Proje Yönetim Platformu",
   description:
-    "Projelerinizi blok ve kat bazli takip edin, santiye sureclerini dijitallestirin, ekibinizle gercek zamanli koordinasyon saglayin.",
+    "Projelerinizi blok ve kat bazlı takip edin, şantiye süreçlerini dijitalleştirin, ekibinizle gerçek zamanlı koordinasyon sağlayın.",
   icons: {
     icon: "/favicon.svg",
   },

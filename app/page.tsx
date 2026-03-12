@@ -93,7 +93,7 @@ export default function Home() {
     window.location.href =
       "mailto:info@peraos.com?subject=" + subject + "&body=" + body;
     alert(
-      "E-posta uygulamaniz acilacak. Talebinizi gonderdikten sonra en kisa surede donus yapacagiz!"
+      "E-posta uygulamanız açılacak. Talebinizi gönderdikten sonra en kısa sürede dönüş yapacağız!"
     );
   }
 
@@ -110,10 +110,10 @@ export default function Home() {
           </a>
           <ul className="nav-links">
             <li>
-              <a href="#ozellikler">Ozellikler</a>
+              <a href="#ozellikler">Özellikler</a>
             </li>
             <li>
-              <a href="#nasil-calisir">Nasil Calisir</a>
+              <a href="#nasil-calisir">Nasıl Çalışır</a>
             </li>
             <li>
               <a href="#paketler">Paketler</a>
@@ -187,19 +187,19 @@ export default function Home() {
         <div className="container">
           <div className="hero-inner">
             <div className="hero-content">
-              <div className="hero-badge">Insaat & Proje Yonetimi</div>
+              <div className="hero-badge">İnşaat & Proje Yönetimi</div>
               <h1>
-                Santiyeden masaya
+                Şantiyeden masaya
                 <br />
                 <em>tek platform.</em>
               </h1>
               <p className="hero-desc">
-                Projelerinizi blok ve kat bazli takip edin, santiye sureclerini
-                dijitallestirin, ekibinizle gercek zamanli koordinasyon saglayin.
+                Projelerinizi blok ve kat bazlı takip edin, şantiye süreçlerini
+                dijitalleştirin, ekibinizle gerçek zamanlı koordinasyon sağlayın.
               </p>
               <div className="hero-actions">
                 <a href="#sunum-talep" className="btn-primary">
-                  Detayli Sunum Talep Et{" "}
+                  Detaylı Sunum Talep Et{" "}
                   <svg
                     width="16"
                     height="16"
@@ -216,7 +216,7 @@ export default function Home() {
                   </svg>
                 </a>
                 <a href="#ozellikler" className="btn-secondary">
-                  Ozellikleri Kesfet
+                  Özellikleri Keşfet
                 </a>
               </div>
             </div>
@@ -239,7 +239,7 @@ export default function Home() {
                     </div>
                     <div className="dash-st">
                       <div className="dash-sn">%78</div>
-                      <div className="dash-sl">Ilerleme</div>
+                      <div className="dash-sl">İlerleme</div>
                     </div>
                     <div className="dash-ch">
                       <div className="dash-bar"></div>
@@ -257,10 +257,10 @@ export default function Home() {
                 </div>
                 <div className="dash-pct">
                   <div className="dash-pn">%78</div>
-                  <div className="dash-pl">Tamamlandi</div>
+                  <div className="dash-pl">Tamamlandı</div>
                 </div>
                 <div className="dash-prog">
-                  <div className="dash-prog-title">Blok Ilerleme</div>
+                  <div className="dash-prog-title">Blok İlerleme</div>
                   <div className="dash-prog-row">
                     <div className="dash-prog-label">A Blok</div>
                     <div className="dash-prog-track">
@@ -281,18 +281,18 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="dash-notif">
-                  <div className="dash-nt">Son Guncellemeler</div>
+                  <div className="dash-nt">Son Güncellemeler</div>
                   <div className="dash-ni">
                     <div className="dash-nd"></div>
-                    <div className="dash-nx">B Blok 3.Kat tamamlandi</div>
+                    <div className="dash-nx">B Blok 3.Kat tamamlandı</div>
                   </div>
                   <div className="dash-ni">
                     <div className="dash-nd"></div>
-                    <div className="dash-nx">A Blok siva basladi</div>
+                    <div className="dash-nx">A Blok sıva başladı</div>
                   </div>
                   <div className="dash-ni">
                     <div className="dash-nd"></div>
-                    <div className="dash-nx">3 yeni satis kaydi</div>
+                    <div className="dash-nx">3 yeni satış kaydı</div>
                   </div>
                 </div>
               </div>
@@ -301,15 +301,15 @@ export default function Home() {
           <div className="hero-stats">
             <div className="hero-stat">
               <h3>%40</h3>
-              <p>Daha hizli proje takibi</p>
+              <p>Daha hızlı proje takibi</p>
             </div>
             <div className="hero-stat">
               <h3>Blok+Kat</h3>
-              <p>Bazli detayli izleme</p>
+              <p>Bazlı detaylı izleme</p>
             </div>
             <div className="hero-stat">
               <h3>7/24</h3>
-              <p>Gercek zamanli erisim</p>
+              <p>Gerçek zamanlı erişim</p>
             </div>
           </div>
         </div>
@@ -333,15 +333,15 @@ export default function Home() {
         </div>
         <div className="container">
           <div className="features-header reveal">
-            <div className="section-label">Moduller</div>
+            <div className="section-label">Modüller</div>
             <h2 className="section-title">
-              Insaat yonetiminin her adimi
+              İnşaat yönetiminin her adımı
               <br />
               tek ekranda.
             </h2>
             <p className="section-desc">
-              Proje planlama, santiye takibi, satis yonetimi ve ekip
-              koordinasyonunu tek platformda birlestirin.
+              Proje planlama, şantiye takibi, satış yönetimi ve ekip
+              koordinasyonunu tek platformda birleştirin.
             </p>
           </div>
           <div className="features-grid">
@@ -351,10 +351,10 @@ export default function Home() {
               <div className="feature-icon">
                 <HardHat size={24} color="var(--accent)" />
               </div>
-              <h3>Santiye Yonetimi</h3>
+              <h3>Şantiye Yönetimi</h3>
               <p>
-                Blok ve kat bazli ilerleme takibi, is programi, gunluk santiye
-                raporlari ve puantaj yonetimi tek ekranda.
+                Blok ve kat bazlı ilerleme takibi, iş programı, günlük şantiye
+                raporları ve puantaj yönetimi tek ekranda.
               </p>
             </div>
             <div className="feature-card reveal">
@@ -368,8 +368,8 @@ export default function Home() {
               </div>
               <h3>Proje Takibi</h3>
               <p>
-                Tum projelerinizi tek panelden yonetin. Villa, rezidans veya
-                toplu konut — her proje tipine uyumlu yapi.
+                Tüm projelerinizi tek panelden yönetin. Villa, rezidans veya
+                toplu konut — her proje tipine uyumlu yapı.
               </p>
             </div>
             <div className="feature-card reveal">
@@ -378,10 +378,10 @@ export default function Home() {
               <div className="feature-icon">
                 <Wallet size={24} color="var(--accent)" />
               </div>
-              <h3>Satis & CRM</h3>
+              <h3>Satış & CRM</h3>
               <p>
-                Daire/villa satis surecleri, musteri takibi, teklif yonetimi ve
-                odeme planlarini entegre bicimde yonetin.
+                Daire/villa satış süreçleri, müşteri takibi, teklif yönetimi ve
+                ödeme planlarını entegre biçimde yönetin.
               </p>
             </div>
             <div className="feature-card reveal">
@@ -395,8 +395,8 @@ export default function Home() {
               </div>
               <h3>Ekip Koordinasyonu</h3>
               <p>
-                Taseron, muhendis ve santiye ekibini tek platformda bulusturun.
-                Gorev atama ve ilerleme bildirimleri.
+                Taşeron, mühendis ve şantiye ekibini tek platformda buluşturun.
+                Görev atama ve ilerleme bildirimleri.
               </p>
             </div>
             <div className="feature-card reveal">
@@ -405,10 +405,10 @@ export default function Home() {
               <div className="feature-icon">
                 <Smartphone size={24} color="var(--accent)" />
               </div>
-              <h3>Mobil Erisim</h3>
+              <h3>Mobil Erişim</h3>
               <p>
-                Santiyeden, ofisten veya sahadan — her cihazdan kesintisiz
-                erisim. Responsive tasarim, her ekranda calisir.
+                Şantiyeden, ofisten veya sahadan — her cihazdan kesintisiz
+                erişim. Responsive tasarım, her ekranda çalışır.
               </p>
             </div>
             <div className="feature-card reveal">
@@ -422,8 +422,8 @@ export default function Home() {
               </div>
               <h3>Raporlama & Analiz</h3>
               <p>
-                Proje bazli maliyet analizi, ilerleme grafikleri, satis
-                performansi ve ozellestirilebilir raporlar.
+                Proje bazlı maliyet analizi, ilerleme grafikleri, satış
+                performansı ve özelleştirilebilir raporlar.
               </p>
             </div>
           </div>
@@ -445,12 +445,12 @@ export default function Home() {
               className="section-label section-label-light"
               style={{ justifyContent: "center" }}
             >
-              Nasil Calisir
+              Nasıl Çalışır
             </div>
-            <h2 className="section-title">4 Adimda Dijital Donusum</h2>
+            <h2 className="section-title">4 Adımda Dijital Dönüşüm</h2>
             <p className="section-desc" style={{ margin: "0 auto" }}>
-              Projenizi dakikalar icinde dijitallestirin. Kurulum, egitim derdi
-              yok — hemen baslayin.
+              Projenizi dakikalar içinde dijitalleştirin. Kurulum, eğitim derdi
+              yok — hemen başlayın.
             </p>
           </div>
           <div className="flow-container reveal">
@@ -462,10 +462,10 @@ export default function Home() {
                   <div className="flow-step-icon">
                     <Building2 size={28} color="var(--accent)" />
                   </div>
-                  <h3>Proje Olusturun</h3>
+                  <h3>Proje Oluşturun</h3>
                   <p>
-                    Proje tipini secin, blok ve kat yapisini tanimlayin.
-                    Dakikalar icinde hazir.
+                    Proje tipini seçin, blok ve kat yapısını tanımlayın.
+                    Dakikalar içinde hazır.
                   </p>
                 </div>
               </div>
@@ -477,8 +477,8 @@ export default function Home() {
                   </div>
                   <h3>Ekibinizi Ekleyin</h3>
                   <p>
-                    Santiye sefi, muhendis, satis ekibi — herkese rol ve yetki
-                    taniyin.
+                    Şantiye şefi, mühendis, satış ekibi — herkese rol ve yetki
+                    tanıyın.
                   </p>
                 </div>
               </div>
@@ -488,10 +488,10 @@ export default function Home() {
                   <div className="flow-step-icon">
                     <ClipboardCheck size={28} color="var(--accent)" />
                   </div>
-                  <h3>Takip Baslasin</h3>
+                  <h3>Takip Başlasın</h3>
                   <p>
-                    Ilerleme girin, raporlar olusturun, satis durumunu
-                    guncelleyin.
+                    İlerleme girin, raporlar oluşturun, satış durumunu
+                    güncelleyin.
                   </p>
                 </div>
               </div>
@@ -531,12 +531,12 @@ export default function Home() {
               Referanslar
             </div>
             <h2 className="section-title">
-              Sektor profesyonelleri
+              Sektör profesyonelleri
               <br />
               PeraOS&apos;u tercih ediyor.
             </h2>
             <p className="section-desc">
-              Insaat ve proje yonetiminde dijital donusum saglayan firmalardan
+              İnşaat ve proje yönetiminde dijital dönüşüm sağlayan firmalardan
               geri bildirimler.
             </p>
           </div>
@@ -545,16 +545,16 @@ export default function Home() {
               <div className="quote-mark">&ldquo;</div>
               <div className="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
               <p className="testimonial-text">
-                &ldquo;Santiye takibinde Excel&apos;den kurtulmamizi sagladi.
-                Blok ve kat bazli ilerleme sistemi tam ihtiyacimiz olan
-                seydi.&rdquo;
+                &ldquo;Şantiye takibinde Excel&apos;den kurtulmamızı sağladı.
+                Blok ve kat bazlı ilerleme sistemi tam ihtiyacımız olan
+                şeydi.&rdquo;
               </p>
               <div className="testimonial-author">
                 <div className="testimonial-avatar">AK</div>
                 <div>
                   <div className="testimonial-name">Ahmet K.</div>
                   <div className="testimonial-role">
-                    Proje Muduru — Yapi Insaat
+                    Proje Müdürü — Yapı İnşaat
                   </div>
                 </div>
               </div>
@@ -563,8 +563,8 @@ export default function Home() {
               <div className="quote-mark">&ldquo;</div>
               <div className="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
               <p className="testimonial-text">
-                &ldquo;Satis ekibi ile santiye ekibini ayni platformda
-                bulusturmak buyuk avantaj sagladi. Iletisim kopukluklari
+                &ldquo;Satış ekibi ile şantiye ekibini aynı platformda
+                buluşturmak büyük avantaj sağladı. İletişim kopuklukları
                 bitti.&rdquo;
               </p>
               <div className="testimonial-author">
@@ -572,7 +572,7 @@ export default function Home() {
                 <div>
                   <div className="testimonial-name">Selin Y.</div>
                   <div className="testimonial-role">
-                    Genel Mudur — Prestij Konut
+                    Genel Müdür — Prestij Konut
                   </div>
                 </div>
               </div>
@@ -581,16 +581,16 @@ export default function Home() {
               <div className="quote-mark">&ldquo;</div>
               <div className="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
               <p className="testimonial-text">
-                &ldquo;Villa projelerimizi PeraOS uzerinden yonetmeye basladik.
-                Mobil erisim sayesinde sahada anlik guncellemeler
+                &ldquo;Villa projelerimizi PeraOS üzerinden yönetmeye başladık.
+                Mobil erişim sayesinde sahada anlık güncellemeler
                 yapabiliyoruz.&rdquo;
               </p>
               <div className="testimonial-author">
-                <div className="testimonial-avatar">MC</div>
+                <div className="testimonial-avatar">MÇ</div>
                 <div>
-                  <div className="testimonial-name">Murat C.</div>
+                  <div className="testimonial-name">Murat Ç.</div>
                   <div className="testimonial-role">
-                    Santiye Sefi — Doruk Insaat
+                    Şantiye Şefi — Doruk İnşaat
                   </div>
                 </div>
               </div>
@@ -609,28 +609,28 @@ export default function Home() {
               Paketler
             </div>
             <h2 className="section-title">
-              Ihtiyaciniza uygun plani secin.
+              İhtiyacınıza uygun planı seçin.
             </h2>
             <p className="section-desc">
-              Her olcekte insaat firmasi icin esnek fiyatlandirma. Buyudukce
-              olceklendirin.
+              Her ölçekte inşaat firması için esnek fiyatlandırma. Büyüdükçe
+              ölçeklendirin.
             </p>
           </div>
           <div className="pricing-grid">
             <div className="pricing-card reveal">
-              <div className="pricing-name">Baslangic</div>
-              <div className="pricing-price">Teklif Alin</div>
+              <div className="pricing-name">Başlangıç</div>
+              <div className="pricing-price">Teklif Alın</div>
               <div className="pricing-desc">
-                Kucuk olcekli firmalar icin temel ozellikler. Proje basina
-                ucretlendirilir.
+                Küçük ölçekli firmalar için temel özellikler. Proje başına
+                ücretlendirilir.
               </div>
               <ul className="pricing-features">
-                <li>Proje basina ucretlendirme</li>
-                <li>5 kullanici</li>
+                <li>Proje başına ücretlendirme</li>
+                <li>5 kullanıcı</li>
                 <li>Blok & kat takibi</li>
-                <li>Gunluk santiye raporu</li>
-                <li>Puantaj yonetimi</li>
-                <li>E-posta destegi</li>
+                <li>Günlük şantiye raporu</li>
+                <li>Puantaj yönetimi</li>
+                <li>E-posta desteği</li>
               </ul>
               <a href="#sunum-talep" className="pricing-cta pricing-cta-outline">
                 Sunum Talep Et
@@ -638,20 +638,20 @@ export default function Home() {
             </div>
             <div className="pricing-card featured reveal">
               <div className="pricing-name">Profesyonel</div>
-              <div className="pricing-price">Teklif Alin</div>
+              <div className="pricing-price">Teklif Alın</div>
               <div className="pricing-desc">
-                Buyuyen firmalar icin gelismis ozellikler. Proje basina
-                ucretlendirilir.
+                Büyüyen firmalar için gelişmiş özellikler. Proje başına
+                ücretlendirilir.
               </div>
               <ul className="pricing-features">
-                <li>Proje basina ucretlendirme</li>
-                <li>15 kullanici</li>
-                <li>Satis & CRM modulu</li>
+                <li>Proje başına ücretlendirme</li>
+                <li>15 kullanıcı</li>
+                <li>Satış & CRM modulu</li>
                 <li>Raporlama & analiz</li>
                 <li>Ekip koordinasyonu</li>
-                <li>Puantaj yonetimi</li>
-                <li>Mobil uygulama (iOS & Android) — yakinda</li>
-                <li>Oncelikli destek</li>
+                <li>Puantaj yönetimi</li>
+                <li>Mobil uygulama (iOS & Android) — yakında</li>
+                <li>Öncelikli destek</li>
               </ul>
               <a href="#sunum-talep" className="pricing-cta pricing-cta-filled">
                 Sunum Talep Et
@@ -659,27 +659,27 @@ export default function Home() {
             </div>
             <div className="pricing-card reveal">
               <div className="pricing-name">Kurumsal</div>
-              <div className="pricing-price">Ozel Fiyat</div>
+              <div className="pricing-price">Özel Fiyat</div>
               <div className="pricing-desc">
-                Buyuk firmalar icin tam kapsamli cozum. Vaziyet plani cizimi
+                Büyük firmalar için tam kapsamlı çözüm. Vaziyet planı çizimi
                 dahil.
               </div>
               <ul className="pricing-features">
-                <li>Sinirsiz proje & kullanici</li>
-                <li>Vaziyet plani cizim hizmeti</li>
-                <li>Tum moduller dahil</li>
+                <li>Sınırsız proje & kullanıcı</li>
+                <li>Vaziyet planı çizim hizmeti</li>
+                <li>Tüm modüller dahil</li>
                 <li>API entegrasyonu</li>
-                <li>Ozel raporlama</li>
-                <li>Coklu firma yonetimi</li>
-                <li>Mobil uygulama (iOS & Android) — yakinda</li>
-                <li>Ozel egitim & onboarding</li>
-                <li>7/24 oncelikli destek</li>
+                <li>Özel raporlama</li>
+                <li>Çoklu firma yönetimi</li>
+                <li>Mobil uygulama (iOS & Android) — yakında</li>
+                <li>Özel eğitim & onboarding</li>
+                <li>7/24 öncelikli destek</li>
               </ul>
               <a
                 href="#sunum-talep"
                 className="pricing-cta pricing-cta-outline"
               >
-                Iletisime Gecin
+                İletişime Geçin
               </a>
             </div>
           </div>
@@ -695,9 +695,9 @@ export default function Home() {
             >
               SSS
             </div>
-            <h2 className="section-title">Sikca Sorulan Sorular</h2>
+            <h2 className="section-title">Sıkça Sorulan Sorular</h2>
             <p className="section-desc">
-              PeraOS hakkinda merak edilenlerin yanitlari.
+              PeraOS hakkında merak edilenlerin yanıtları.
             </p>
           </div>
           <div className="faq-list reveal">
@@ -708,14 +708,14 @@ export default function Home() {
                   toggleFaq(e.currentTarget)
                 }
               >
-                PeraOS&apos;u kullanmak icin kurulum gerekiyor mu?
+                PeraOS&apos;u kullanmak için kurulum gerekiyor mu?
                 <div className="faq-icon">+</div>
               </button>
               <div className="faq-answer">
                 <p>
-                  Hayir, PeraOS tamamen bulut tabanlıdır. Herhangi bir kurulum
-                  veya indirme gerektirmez. Tarayıcınızdan anında erisim
-                  saglayabilirsiniz.
+                  Hayır, PeraOS tamamen bulut tabanlıdır. Herhangi bir kurulum
+                  veya indirme gerektirmez. Tarayıcınızdan anında erişim
+                  sağlayabilirsiniz.
                 </p>
               </div>
             </div>
@@ -726,15 +726,15 @@ export default function Home() {
                   toggleFaq(e.currentTarget)
                 }
               >
-                Kac proje ve kullanici ekleyebilirim?
+                Kaç proje ve kullanıcı ekleyebilirim?
                 <div className="faq-icon">+</div>
               </button>
               <div className="faq-answer">
                 <p>
-                  Baslangic ve Profesyonel paketlerde proje basina
-                  ucretlendirme yapilir, ihtiyaciniz kadar proje
-                  ekleyebilirsiniz. Kurumsal pakette ise sinirsiz proje ve
-                  kullanici kapasitesi sunulmaktadir.
+                  Başlangıç ve Profesyonel paketlerde proje basina
+                  ücretlendirme yapılır, ihtiyacınız kadar proje
+                  ekleyebilirsiniz. Kurumsal pakette ise sınırsız proje ve
+                  kullanıcı kapasitesi sunulmaktadır.
                 </p>
               </div>
             </div>
@@ -745,15 +745,15 @@ export default function Home() {
                   toggleFaq(e.currentTarget)
                 }
               >
-                Verilerim guvende mi?
+                Verilerim güvende mi?
                 <div className="faq-icon">+</div>
               </button>
               <div className="faq-answer">
                 <p>
-                  Kesinlikle. Tum verileriniz SSL ile sifreli iletilir ve
-                  guvenli bulut sunucularda saklanir. Rol bazli yetkilendirme
-                  ile herkes yalnizca yetkisi olan veriyi gorebilir. KVKK uyumlu
-                  altyapi ile calisiyoruz.
+                  Kesinlikle. Tüm verileriniz SSL ile şifreli iletilir ve
+                  güvenli bulut sunucularda saklanır. Rol bazlı yetkilendirme
+                  ile herkes yalnızca yetkisi olan veriyi görebilir. KVKK uyumlu
+                  altyapı ile çalışıyoruz.
                 </p>
               </div>
             </div>
@@ -770,8 +770,8 @@ export default function Home() {
               <div className="faq-answer">
                 <p>
                   Evet, mevcut projelerinizi platforma kolayca
-                  tanimlayabilirsiniz. Excel veya diger kaynaklardan veri
-                  aktarimi icin ekibimiz destek saglar.
+                  tanımlayabilirsiniz. Excel veya diğer kaynaklardan veri
+                  aktarımı için ekibimiz destek sağlar.
                 </p>
               </div>
             </div>
@@ -788,8 +788,8 @@ export default function Home() {
               <div className="faq-answer">
                 <p>
                   Evet, PeraOS her proje tipine uyumludur. Toplu konut, villa,
-                  rezidans, ticari insaat ve altyapi projeleri dahil olmak uzere
-                  blok-kat-daire hiyerarsisini ozellestirebilirsiniz.
+                  rezidans, ticari inşaat ve altyapı projeleri dahil olmak üzere
+                  blok-kat-daire hiyerarşisini özelleştirebilirsiniz.
                 </p>
               </div>
             </div>
@@ -800,14 +800,14 @@ export default function Home() {
                   toggleFaq(e.currentTarget)
                 }
               >
-                Sahadan (santiyeden) kullanilabiliyor mu?
+                Sahadan (şantiyeden) kullanılabiliyor mu?
                 <div className="faq-icon">+</div>
               </button>
               <div className="faq-answer">
                 <p>
-                  Evet, tamamen responsive tasarima sahiptir. Santiye sefleri
-                  telefonlarindan anlik ilerleme girisi yapabilir, fotografli
-                  rapor olusturabilir ve bildirim alabilir.
+                  Evet, tamamen responsive tasarıma sahiptir. Şantiye şefleri
+                  telefonlarından anlık ilerleme girişi yapabilir, fotoğraflı
+                  rapor oluşturabilir ve bildirim alabilir.
                 </p>
               </div>
             </div>
@@ -818,14 +818,14 @@ export default function Home() {
                   toggleFaq(e.currentTarget)
                 }
               >
-                Ucretsiz deneme suresi var mi?
+                Ücretsiz deneme süresi var mı?
                 <div className="faq-icon">+</div>
               </button>
               <div className="faq-answer">
                 <p>
-                  Platformumuzu yakindan tanimaniz icin detayli sunum ve demo
-                  imkani sunuyoruz. Sunum talep formu uzerinden bize ulasin,
-                  firmaniza ozel bir demo planlayalim.
+                  Platformumuzu yakından tanımanız için detaylı sunum ve demo
+                  imkanı sunuyoruz. Sunum talep formu üzerinden bize ulaşın,
+                  firmanıza özel bir demo planlayalım.
                 </p>
               </div>
             </div>
@@ -835,13 +835,13 @@ export default function Home() {
 
       <section className="cta-banner">
         <div className="container reveal">
-          <h2>Projenizi dijitale tasimaya hazir misiniz?</h2>
+          <h2>Projenizi dijitale taşımaya hazır mısınız?</h2>
           <p>
-            Detayli sunum ile PeraOS&apos;un firmaniza nasil
-            uyarlanabilecegini kesfedin.
+            Detaylı sunum ile PeraOS&apos;un firmanıza nasıl
+            uyarlanabileceğini keşfedin.
           </p>
           <a href="#sunum-talep" className="btn-white">
-            Detayli Sunum Talep Et &rarr;
+            Detaylı Sunum Talep Et &rarr;
           </a>
         </div>
       </section>
@@ -879,14 +879,14 @@ export default function Home() {
             <div className="contact-info reveal">
               <div className="section-label">Sunum Talep</div>
               <h2 className="section-title">
-                Firmaniza ozel
+                Firmanıza özel
                 <br />
-                detayli sunum alalim.
+                detaylı sunum alalım.
               </h2>
               <p className="section-desc">
-                PeraOS&apos;un insaat projelerinize nasil deger katacagini
-                gosteren detayli bir sunum hazirlayalim. Bilgilerinizi birakin,
-                size ozel sunum ile donus yapalim.
+                PeraOS&apos;un inşaat projelerinize nasıl değer katacağını
+                gösteren detaylı bir sunum hazırlayalım. Bilgilerinizi bırakın,
+                size özel sunum ile dönüş yapalım.
               </p>
               <div style={{ marginTop: "40px" }}>
                 <div className="contact-detail">
@@ -902,7 +902,7 @@ export default function Home() {
                     <MapPin size={18} color="var(--accent)" />
                   </div>
                   <div className="contact-detail-text">
-                    <strong>Konum</strong>Istanbul, Turkiye
+                    <strong>Konum</strong>İstanbul, Türkiye
                   </div>
                 </div>
               </div>
@@ -910,7 +910,7 @@ export default function Home() {
             <div className="contact-form reveal">
               <h3>Sunum Talep Formu</h3>
               <p>
-                Bilgilerinizi birakin, 24 saat icinde detayli sunum ile donus
+                Bilgilerinizi bırakın, 24 saat içinde detaylı sunum ile dönüş
                 yapalim.
               </p>
               <form id="sunumForm" onSubmit={handleFormSubmit}>
@@ -920,7 +920,7 @@ export default function Home() {
                     <input
                       type="text"
                       id="fname"
-                      placeholder="Adiniz Soyadiniz"
+                      placeholder="Adınız Soyadınız"
                       required
                     />
                   </div>
@@ -929,7 +929,7 @@ export default function Home() {
                     <input
                       type="text"
                       id="fcompany"
-                      placeholder="Firma adiniz"
+                      placeholder="Firma adınız"
                     />
                   </div>
                 </div>
@@ -955,20 +955,20 @@ export default function Home() {
                 <div className="form-group">
                   <label>Proje Tipi</label>
                   <select id="ftype">
-                    <option value="">Seciniz</option>
+                    <option value="">Seçiniz</option>
                     <option>Toplu Konut</option>
                     <option>Villa Projesi</option>
                     <option>Rezidans</option>
-                    <option>Ticari Insaat</option>
-                    <option>Altyapi Projesi</option>
-                    <option>Diger</option>
+                    <option>Ticari İnşaat</option>
+                    <option>Altyapı Projesi</option>
+                    <option>Diğer</option>
                   </select>
                 </div>
                 <div className="form-group">
-                  <label>Mesajiniz</label>
+                  <label>Mesajınız</label>
                   <textarea
                     id="fmessage"
-                    placeholder="Projeniz hakkinda kisaca bilgi verin..."
+                    placeholder="Projeniz hakkında kısaca bilgi verin..."
                   ></textarea>
                 </div>
                 <button type="submit" className="form-submit">
@@ -992,15 +992,15 @@ export default function Home() {
                 />
               </a>
               <p className="footer-desc">
-                Insaat ve proje yonetiminde dijital donusum platformu.
-                Santiyeden masaya, tek cozum.
+                İnşaat ve proje yönetiminde dijital dönüşüm platformu.
+                Şantiyeden masaya, tek cozum.
               </p>
             </div>
             <div className="footer-links">
               <div className="footer-col">
                 <h4>Platform</h4>
-                <a href="#ozellikler">Ozellikler</a>
-                <a href="#nasil-calisir">Nasil Calisir</a>
+                <a href="#ozellikler">Özellikler</a>
+                <a href="#nasil-calisir">Nasıl Çalışır</a>
                 <a href="#paketler">Paketler</a>
                 <a href="#sss">SSS</a>
                 <a href="#sunum-talep">Sunum Talep</a>
@@ -1008,23 +1008,23 @@ export default function Home() {
               <div className="footer-col">
                 <h4>Yasal</h4>
                 <a onClick={() => openLegal("gizlilik")}>
-                  Gizlilik Politikasi
+                  Gizlilik Politikası
                 </a>
                 <a onClick={() => openLegal("kullanim")}>
-                  Kullanim Kosullari
+                  Kullanım Koşulları
                 </a>
                 <a onClick={() => openLegal("kvkk")}>KVKK</a>
               </div>
             </div>
           </div>
           <div className="footer-bottom">
-            <span>&copy; 2026 PeraOS. Tum haklari saklidir.</span>
+            <span>&copy; 2026 PeraOS. Tüm hakları saklıdır.</span>
             <span>
               Bir{" "}
               <a href="https://b2solve.io" target="_blank" rel="noreferrer">
                 b2solve
               </a>{" "}
-              urunudur.
+              ürünüdür.
             </span>
           </div>
         </div>
@@ -1041,56 +1041,56 @@ export default function Home() {
           <button className="legal-close" onClick={closeLegal}>
             &#10005;
           </button>
-          <h2>Gizlilik Politikasi</h2>
-          <div className="legal-date">Son guncelleme: Mart 2026</div>
+          <h2>Gizlilik Politikası</h2>
+          <div className="legal-date">Son güncelleme: Mart 2026</div>
           <h3>1. Toplanan Veriler</h3>
           <p>
-            PeraOS olarak, hizmetlerimizi sunabilmek icin gerekli olan minimum
-            duzeyde kisisel veri toplamaktayiz. Bu veriler; ad-soyad, e-posta
-            adresi, telefon numarasi, firma bilgileri ve proje detaylarini
-            icerebilir.
+            PeraOS olarak, hizmetlerimizi sunabilmek için gerekli olan minimum
+            düzeyde kişisel veri toplamaktayız. Bu veriler; ad-soyad, e-posta
+            adresi, telefon numarası, firma bilgileri ve proje detaylarını
+            içerebilir.
           </p>
-          <h3>2. Verilerin Kullanim Amaci</h3>
+          <h3>2. Verilerin Kullanım Amacı</h3>
           <p>
-            Toplanan veriler yalnizca sunum taleplerinin karsilanmasi, iletisim
-            saglanmasi ve hizmet kalitesinin artirilmasi amaciyla
-            kullanilmaktadir.
+            Toplanan veriler yalnızca sunum taleplerinin karşılanması, iletişim
+            sağlanması ve hizmet kalitesinin artırılması amacıyla
+            kullanılmaktadır.
           </p>
-          <h3>3. Veri Guvenligi</h3>
+          <h3>3. Veri Güvenliği</h3>
           <p>
-            Tum verileriniz SSL sertifikasi ile sifreli olarak iletilir ve
-            guvenli sunucularda saklanir.
+            Tüm verileriniz SSL sertifikası ile şifreli olarak iletilir ve
+            güvenli sunucularda saklanır.
           </p>
-          <h3>4. Iletisim</h3>
+          <h3>4. İletişim</h3>
           <p>
-            Gizlilik politikamiz hakkinda sorulariniz icin info@peraos.com
-            adresinden bize ulasabilirsiniz.
+            Gizlilik politikamız hakkında sorularınız için info@peraos.com
+            adresinden bize ulaşabilirsiniz.
           </p>
         </div>
         <div className="legal-modal" id="legal-kullanim" style={{ display: "none" }}>
           <button className="legal-close" onClick={closeLegal}>
             &#10005;
           </button>
-          <h2>Kullanim Kosullari</h2>
-          <div className="legal-date">Son guncelleme: Mart 2026</div>
-          <h3>1. Hizmet Tanimi</h3>
+          <h2>Kullanım Koşulları</h2>
+          <div className="legal-date">Son güncelleme: Mart 2026</div>
+          <h3>1. Hizmet Tanımı</h3>
           <p>
-            PeraOS, insaat ve proje yonetimi alaninda bulut tabanli yazilim
+            PeraOS, inşaat ve proje yönetimi alanında bulut tabanlı yazılım
             hizmeti (SaaS) sunan bir platformdur.
           </p>
-          <h3>2. Hesap Sorumlulugu</h3>
+          <h3>2. Hesap Sorumluluğu</h3>
           <p>
-            Kullanicilar, hesap bilgilerinin gizliliginden ve hesaplari
-            uzerinden gerceklestirilen tum islemlerden sorumludur.
+            Kullanıcılar, hesap bilgilerinin gizliliğinden ve hesapları
+            üzerinden gerçekleştirilen tüm işlemlerden sorumludur.
           </p>
-          <h3>3. Fikri Mulkiyet</h3>
+          <h3>3. Fikri Mülkiyet</h3>
           <p>
-            PeraOS platformu, tasarimi, logosu ve yazilimi b2solve tarafindan
-            gelistirilmis olup tum fikri mulkiyet haklari saklidir.
+            PeraOS platformu, tasarımı, logosu ve yazılımı b2solve tarafından
+            geliştirilmiş olup tüm fikri mülkiyet hakları saklıdır.
           </p>
-          <h3>4. Sorumluluk Siniri</h3>
+          <h3>4. Sorumluluk Sınırı</h3>
           <p>
-            PeraOS, platformun kesintisiz veya hatasiz calisacagini garanti
+            PeraOS, platformun kesintisiz veya hatasız çalışacağını garanti
             etmez.
           </p>
         </div>
@@ -1098,23 +1098,23 @@ export default function Home() {
           <button className="legal-close" onClick={closeLegal}>
             &#10005;
           </button>
-          <h2>KVKK Aydinlatma Metni</h2>
-          <div className="legal-date">Son guncelleme: Mart 2026</div>
+          <h2>KVKK Aydınlatma Metni</h2>
+          <div className="legal-date">Son güncelleme: Mart 2026</div>
           <h3>Veri Sorumlusu</h3>
           <p>
-            6698 sayili KVKK kapsaminda, kisisel verileriniz veri sorumlusu
-            sifatiyla b2solve / PeraOS tarafindan islenmektedir.
+            6698 sayılı KVKK kapsamında, kişisel verileriniz veri sorumlusu
+            sıfatıyla b2solve / PeraOS tarafından işlenmektedir.
           </p>
-          <h3>Islenen Kisisel Veriler</h3>
+          <h3>İşlenen Kişisel Veriler</h3>
           <p>
-            Kimlik bilgileri (ad, soyad), iletisim bilgileri (e-posta, telefon),
-            firma bilgileri ve proje detaylari islenmektedir.
+            Kimlik bilgileri (ad, soyad), iletişim bilgileri (e-posta, telefon),
+            firma bilgileri ve proje detayları işlenmektedir.
           </p>
-          <h3>Haklariniz</h3>
+          <h3>Haklarınız</h3>
           <p>
-            KVKK&apos;nin 11. maddesi kapsaminda; kisisel verilerinizin islenip
-            islenmedigini ogrenme, duzeltilmesini veya silinmesini talep etme
-            haklarina sahipsiniz. Basvuru icin: info@peraos.com
+            KVKK&apos;nın 11. maddesi kapsamında; kişisel verilerinizin işlenip
+            işlenmediğini öğrenme, düzeltilmesini veya silinmesini talep etme
+            haklarına sahipsiniz. Başvuru için: info@peraos.com
           </p>
         </div>
       </div>
