@@ -135,6 +135,37 @@ nav .container{display:flex;align-items:center;justify-content:space-between;hei
 .feature-card h3{font-size:18px;font-weight:700;margin-bottom:12px;letter-spacing:-0.3px}
 .feature-card p{font-size:14px;color:var(--text-muted);line-height:1.7}
 
+/* EMLAK TEASER */
+.emlak-teaser{padding:120px 0;background:var(--dark);position:relative;overflow:hidden;color:white}
+.emlak-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(6,182,212,0.15);color:#06B6D4;padding:8px 20px;border-radius:100px;font-size:13px;font-weight:600;margin-bottom:24px;letter-spacing:0.3px;border:1px solid rgba(6,182,212,0.25)}
+.emlak-badge::before{content:'';width:7px;height:7px;background:#06B6D4;border-radius:50%;animation:emlakPulse 2s infinite}
+@keyframes emlakPulse{0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(6,182,212,0.4)}50%{opacity:0.6;box-shadow:0 0 0 8px rgba(6,182,212,0)}}
+.emlak-title{font-family:var(--font-display);font-size:clamp(36px,5vw,60px);font-weight:600;letter-spacing:-2px;margin-bottom:12px;color:white}
+.emlak-slogan{font-size:18px;color:rgba(255,255,255,0.5);margin-bottom:56px}
+.emlak-map{width:100%;max-width:600px;height:280px;margin:0 auto 56px;position:relative;border-radius:16px;overflow:hidden;border:1px solid rgba(6,182,212,0.15);background:rgba(6,182,212,0.03)}
+.emlak-dot-grid{position:absolute;top:0;left:0;right:0;bottom:0;background-image:radial-gradient(rgba(6,182,212,0.2) 1px,transparent 1px);background-size:20px 20px}
+.emlak-scan-line{position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,#06B6D4,transparent);animation:emlakScan 4s linear infinite}
+@keyframes emlakScan{0%{top:0}100%{top:100%}}
+.emlak-pin{position:absolute;width:12px;height:12px;border-radius:50%;background:#06B6D4;animation:emlakPinPulse 3s ease-in-out infinite}
+.emlak-pin::after{content:'';position:absolute;top:-6px;left:-6px;width:24px;height:24px;border-radius:50%;border:2px solid rgba(6,182,212,0.3);animation:emlakPinRing 3s ease-in-out infinite}
+@keyframes emlakPinPulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.6;transform:scale(1.2)}}
+@keyframes emlakPinRing{0%,100%{transform:scale(1);opacity:0.4}50%{transform:scale(1.8);opacity:0}}
+.emlak-pin-1{top:30%;left:25%}.emlak-pin-2{top:55%;left:60%;animation-delay:1s}.emlak-pin-2::after{animation-delay:1s}.emlak-pin-3{top:40%;left:75%;animation-delay:2s}.emlak-pin-3::after{animation-delay:2s}
+.emlak-features{display:flex;justify-content:center;gap:48px;margin-bottom:48px}
+.emlak-feature{display:flex;align-items:center;gap:10px;font-size:15px;color:rgba(255,255,255,0.85);font-weight:500}
+.emlak-notify{text-align:center}
+.emlak-form{display:inline-flex;gap:0;max-width:480px;width:100%}
+.emlak-form input{flex:1;padding:14px 20px;border:1px solid rgba(6,182,212,0.3);border-right:none;border-radius:12px 0 0 12px;background:rgba(6,182,212,0.05);color:white;font-size:14px;font-family:var(--font-body);outline:none;transition:border-color 0.2s}
+.emlak-form input::placeholder{color:rgba(255,255,255,0.3)}
+.emlak-form input:focus{border-color:#06B6D4}
+.emlak-form button{padding:14px 28px;background:#0891B2;color:white;border:none;border-radius:0 12px 12px 0;font-size:14px;font-weight:600;font-family:var(--font-body);cursor:pointer;transition:background 0.2s;white-space:nowrap}
+.emlak-form button:hover{background:#06B6D4}
+
+/* FORM CHECKBOX */
+.form-checkbox-group{margin-bottom:16px}
+.checkbox-label{display:flex;align-items:center;gap:10px;font-size:14px;color:var(--text);cursor:pointer;font-weight:500}
+.checkbox-label input[type="checkbox"]{width:18px;height:18px;accent-color:var(--accent);cursor:pointer}
+
 /* SCREENSHOTS */
 .screenshots{padding:120px 0;background:var(--white);position:relative;overflow:hidden}
 .screenshots-header{text-align:center;margin-bottom:56px}
@@ -294,12 +325,14 @@ footer::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;back
 .flow-steps{grid-template-columns:repeat(2,1fr)}.flow-line{display:none}
 .contact-wrapper{gap:48px}.hero-stats{gap:32px}
 .hero-measure,.hero-cross,.features-floor-plan,.level-markers{display:none}
+.emlak-features{gap:32px}
 .hero-visual{flex:0 0 360px;height:360px}
 .dash-wrap{width:320px;height:340px;transform:scale(0.85);transform-origin:center}
 }
 @media(max-width:768px){
 .nav-links{display:none}.mobile-toggle{display:block}
 .hero{padding:120px 0 72px}.hero h1{font-size:36px;letter-spacing:-1px}.hero-desc{font-size:16px}
+.emlak-features{flex-direction:column;align-items:center;gap:16px}.emlak-map{height:200px}
 .hero-stats{flex-direction:column;gap:24px}
 .features-grid,.testimonials-grid,.pricing-grid,.screenshots-grid{grid-template-columns:1fr}
 .pricing-card.featured{transform:none}.pricing-card.featured:hover{transform:translateY(-4px)}

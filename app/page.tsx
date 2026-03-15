@@ -12,6 +12,9 @@ import {
   ClipboardCheck,
   Mail,
   MapPin,
+  Map,
+  Bell,
+  MonitorSmartphone,
 } from "lucide-react";
 
 export default function Home() {
@@ -75,6 +78,8 @@ export default function Home() {
     const t = (document.getElementById("ftype") as HTMLSelectElement).value;
     const m = (document.getElementById("fmessage") as HTMLTextAreaElement)
       .value;
+    const emlak = (document.getElementById("femlak") as HTMLInputElement)
+      .checked;
     const subject = encodeURIComponent("PeraOS Sunum Talebi - " + n);
     const body = encodeURIComponent(
       "Ad Soyad: " +
@@ -87,6 +92,8 @@ export default function Home() {
         p +
         "\nProje Tipi: " +
         t +
+        "\nPeraOS Emlak İlgisi: " +
+        (emlak ? "Evet" : "Hayır") +
         "\nMesaj: " +
         m
     );
@@ -114,6 +121,9 @@ export default function Home() {
             </li>
             <li>
               <a href="#nasil-calisir">Nasıl Çalışır</a>
+            </li>
+            <li>
+              <a href="#emlak">Emlak</a>
             </li>
             <li>
               <a href="#paketler">Paketler</a>
@@ -187,14 +197,14 @@ export default function Home() {
         <div className="container">
           <div className="hero-inner">
             <div className="hero-content">
-              <div className="hero-badge">İnşaat & Proje Yönetimi</div>
+              <div className="hero-badge">Proje & Süreç Yönetimi</div>
               <h1>
                 Şantiyeden masaya
                 <br />
                 <em>tek platform.</em>
               </h1>
               <p className="hero-desc">
-                Projelerinizi blok ve kat bazlı takip edin, şantiye süreçlerini
+                Projelerinizi blok ve kat bazlı takip edin, iş süreçlerinizi
                 dijitalleştirin, ekibinizle gerçek zamanlı koordinasyon sağlayın.
               </p>
               <div className="hero-actions">
@@ -340,7 +350,7 @@ export default function Home() {
               tek ekranda.
             </h2>
             <p className="section-desc">
-              Proje planlama, şantiye takibi, satış yönetimi ve ekip
+              Proje planlama, saha takibi, satış yönetimi ve ekip
               koordinasyonunu tek platformda birleştirin.
             </p>
           </div>
@@ -426,6 +436,61 @@ export default function Home() {
                 performansı ve özelleştirilebilir raporlar.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="emlak-teaser" id="emlak">
+        <div className="container">
+          <div style={{ textAlign: "center" }} className="reveal">
+            <div className="emlak-badge">Yakında</div>
+            <h2 className="emlak-title">PeraOS Emlak</h2>
+            <p className="emlak-slogan">Bölgenizi dijitalleştirin.</p>
+          </div>
+          <div className="emlak-map reveal">
+            <div className="emlak-dot-grid"></div>
+            <div className="emlak-scan-line"></div>
+            <div className="emlak-pin emlak-pin-1"></div>
+            <div className="emlak-pin emlak-pin-2"></div>
+            <div className="emlak-pin emlak-pin-3"></div>
+          </div>
+          <div className="emlak-features reveal">
+            <div className="emlak-feature">
+              <Map size={20} color="#06B6D4" />
+              <span>Harita bazlı portföy</span>
+            </div>
+            <div className="emlak-feature">
+              <Bell size={20} color="#06B6D4" />
+              <span>Akıllı hatırlatmalar</span>
+            </div>
+            <div className="emlak-feature">
+              <MonitorSmartphone size={20} color="#06B6D4" />
+              <span>Mobil sahada kullanım</span>
+            </div>
+          </div>
+          <div className="emlak-notify reveal">
+            <form
+              className="emlak-form"
+              onSubmit={(e) => {
+                e.preventDefault();
+                const email = (
+                  document.getElementById("emlak-email") as HTMLInputElement
+                ).value;
+                window.location.href =
+                  "mailto:info@peraos.com?subject=" +
+                  encodeURIComponent("PeraOS Emlak Bekleme Listesi") +
+                  "&body=" +
+                  encodeURIComponent("E-posta: " + email);
+              }}
+            >
+              <input
+                type="email"
+                id="emlak-email"
+                placeholder="E-posta adresiniz"
+                required
+              />
+              <button type="submit">Beni Haberdar Et</button>
+            </form>
           </div>
         </div>
       </section>
@@ -536,7 +601,7 @@ export default function Home() {
               PeraOS&apos;u tercih ediyor.
             </h2>
             <p className="section-desc">
-              İnşaat ve proje yönetiminde dijital dönüşüm sağlayan firmalardan
+              Proje yönetiminde dijital dönüşüm sağlayan firmalardan
               geri bildirimler.
             </p>
           </div>
@@ -837,8 +902,7 @@ export default function Home() {
         <div className="container reveal">
           <h2>Projenizi dijitale taşımaya hazır mısınız?</h2>
           <p>
-            Detaylı sunum ile PeraOS&apos;un firmanıza nasıl
-            uyarlanabileceğini keşfedin.
+            Saha takibinden satışa, ekip yönetiminden raporlamaya — hepsini tek platformda.
           </p>
           <a href="#sunum-talep" className="btn-white">
             Detaylı Sunum Talep Et &rarr;
@@ -964,6 +1028,12 @@ export default function Home() {
                     <option>Diğer</option>
                   </select>
                 </div>
+                <div className="form-group form-checkbox-group">
+                  <label className="checkbox-label">
+                    <input type="checkbox" id="femlak" />
+                    <span>PeraOS Emlak modülüyle de ilgileniyorum</span>
+                  </label>
+                </div>
                 <div className="form-group">
                   <label>Mesajınız</label>
                   <textarea
@@ -992,8 +1062,7 @@ export default function Home() {
                 />
               </a>
               <p className="footer-desc">
-                İnşaat ve proje yönetiminde dijital dönüşüm platformu.
-                Şantiyeden masaya, tek cozum.
+                Proje ve süreç yönetiminde dijital dönüşüm platformu.
               </p>
             </div>
             <div className="footer-links">
